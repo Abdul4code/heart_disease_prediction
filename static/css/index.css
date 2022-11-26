@@ -87,3 +87,48 @@ h1{
     letter-spacing: 1px;
 }
 
+@media(max-width: 760px){  
+ 
+    .left-cont{
+        margin-top: 80px;
+        margin-left: 0%;
+    }
+    
+    .right-cont{
+        margin-top: 30px;
+        margin-left: 0%;
+        padding: 10px;
+    }
+    
+    .img-cont img{
+        width: 50%;
+    }
+    
+    .text-cont{
+        padding: 10px 10px;
+    }
+    
+    
+    
+    p{
+        font-size:14px;
+        color: white;
+        text-align: center;
+    }
+
+    button{
+        font-size: 16pt;
+        width: 150px;
+    }
+    a{
+        left: 27%;
+    }
+    button:hover{
+        color:black;
+        background-color: white;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
